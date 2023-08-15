@@ -1,0 +1,122 @@
+header .headerinfo {
+  background-color: #242424;
+}
+header span {
+  font-size: 14px;
+  color: #b5b5b5;
+  padding: 15px;
+}
+header .headernavigate .headerlogo a {
+  display: flex;
+  align-items: center;
+}
+header .headernavigate nav .navul li {
+  padding: 35px 0;
+}
+header .headernavigate nav .navul li a {
+  margin: 0 0 0 40px;
+  color: #4c4c4c;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  transition: 0.3s ease;
+}
+header .headernavigate nav .navul li a:hover {
+  color: #FB5D5D;
+}
+header .headernavigate nav .navul li a i {
+  font-size: 10px;
+  margin: 4px 0 0 6px;
+}
+header .headernavigate nav .firstli:hover .dropdown1 {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(50px);
+  z-index: 100;
+  background-color: #fff;
+}
+header .headernavigate nav .firstli .dropdown1 {
+  top: 40px;
+  padding: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 3px 0px;
+  transition: 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+header .headernavigate nav .firstli .dropdown1 li {
+  padding: 10px 145px 10px 10px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+}
+header .headernavigate nav .firstli .dropdown1 li:first-child {
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+header .headernavigate nav .firstli .dropdown1 li a {
+  margin: 0;
+}
+header .headernavigate nav .firstli .dropdown1 li a:hover {
+  transform: translateX(5px);
+  transition: 0.3s ease;
+}
+header .headernavigate nav .second-li:hover .dropdown2 {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(50px);
+  z-index: 1000;
+  background-color: #fff;
+}
+header .headernavigate nav .second-li .dropdown2 {
+  top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 3px 0px;
+  transition: 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+  width: 1130px;
+  margin-left: -290px;
+}
+header .headernavigate nav .second-li .shop-col {
+  padding-top: -30px !important;
+  width: 20%;
+}
+header .headernavigate nav .second-li .shop-col .shop-section-name {
+  padding-top: -30px !important;
+}
+header .headernavigate nav .second-li .shop-col .shop-section-name a {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+header .headernavigate nav .second-li .shop-col .shop-list {
+  margin-top: 10px;
+}
+header .headerextrainfo {
+  display: flex;
+  align-items: center;
+}
+header .headerextrainfo a {
+  margin-right: 17px;
+  color: #474747;
+  transition: 0.3s ease;
+}
+header .headerextrainfo a:first-child {
+  color: #FB5D5D;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .headerextrainfo a span {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #FB5D5D;
+}
+header .headerextrainfo a i {
+  font-size: 23px;
+}
+header .headerextrainfo a:hover {
+  color: #FB5D5D;
+}/*# sourceMappingURL=header.css.map */

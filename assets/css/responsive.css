@@ -1,0 +1,110 @@
+@media (max-width: 1029px) {
+  .headernavigate {
+    padding: 15px;
+  }
+  .headernavigate nav a {
+    margin: 0 0 0 30px;
+  }
+}
+@media (max-width: 992px) {
+  .counter-side .section-name {
+    font-size: 14px !important;
+  }
+  .counter-side h3 {
+    font-size: 24px !important;
+  }
+  .counter-side .count-down .number {
+    font-size: 24px !important;
+  }
+  .counter-side .count-down .dots {
+    font-size: 20px !important;
+  }
+  .counter-side .count-down p {
+    font-size: 12px !important;
+  }
+  .counter-side button {
+    padding: 12px 19px !important;
+  }
+  .footer-info {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .footer-info p {
+    width: 90% !important;
+  }
+}
+@media (max-width: 768px) {
+  .footer-top1 .footer-info1 {
+    display: flex;
+  }
+}
+@media (max-width: 576px) {
+  .shop-section .container .col-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .shop-section .container .col-12 .counter-side .section-name {
+    font-size: 12px !important;
+  }
+  .shop-section .container .col-12 .counter-side h3 {
+    font-size: 18px !important;
+  }
+  .shop-section .container .col-12 .counter-side .count-down .number {
+    font-size: 18px !important;
+  }
+  .shop-section .container .col-12 .counter-side .count-down .dots {
+    font-size: 18px !important;
+  }
+  .shop-section .container .col-12 .counter-side .count-down p {
+    font-size: 12px !important;
+  }
+  .shop-section .container .col-12 .counter-side button {
+    padding: 12px 19px !important;
+  }
+  .headernavigate {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .headernavigate .headerlogo {
+    width: 50%;
+  }
+  .headernavigate .headerextrainfo {
+    display: flex !important;
+    justify-content: end !important;
+    width: 50%;
+  }
+}
+@media (max-width: 565px) {
+  .footer-info1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 497px) {
+  .headernavigate .headerextrainfo a {
+    margin-right: 0;
+  }
+  .headernavigate .headerextrainfo a span {
+    padding: 2px;
+  }
+}
+@media (max-width: 360px) {
+  .headernavigate .headerlogo img {
+    margin-left: 10%;
+  }
+  .headernavigate .headerextrainfo .spanextrainfo {
+    margin-top: 10%;
+  }
+  .headernavigate .headerextrainfo .spanextrainfo a i {
+    position: relative;
+    margin-left: 0px;
+    padding: 2px;
+    font-size: 17px;
+  }
+  .headernavigate .headerextrainfo .spanextrainfo a span {
+    top: 11.3%;
+    right: 8%;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,75 @@
+.shop-section {
+    padding: 100px 0 100px 0;
+
+    .container {
+        background-image: url(https://htmldemo.net/jesco/jesco/assets/images/deal-img/deal-bg.jpg);
+        height: 440px;
+
+        .counter-side {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .section-name {
+                font-size: 16px;
+                color: #fb5d5d;
+                font-weight: 600;
+                margin-bottom: 18px;
+            }
+
+            h3 {
+                font-size: 36px;
+                color: #464444;
+                margin-bottom: 15px;
+            }
+
+            .count-down {
+               
+                .number {
+                    font-size: 36px;
+                    color: #303030;
+                    font-weight: 700;
+                }
+                .dots{
+                    font-size: 33px; 
+                    color: #303030;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #303030;
+                }
+            }
+
+            button {
+                margin-top: 20px;
+                padding: 19px 45px;
+                border-radius: 50px;
+                border: none;
+                outline: none;
+                background-color: #fb5d5d;
+                color: #fff;
+                font-weight: 600;
+                font-size: 16px;
+                transition: 0.5s ease;
+
+                i {
+                    font-size: 15px;
+                }
+
+                &:hover {
+                    transform: translateY(-3px);
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 6px 10px -3px;
+                }
+            }
+        }
+
+        .img-side {
+            img {
+                margin-top: 65px;
+            }
+        }
+    }
+}
