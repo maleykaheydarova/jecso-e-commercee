@@ -1,0 +1,96 @@
+.feedback-section {
+    .feedback-page-name {
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 700;
+            background: linear-gradient(-96deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .swiper-wrapper {
+        padding: 60px 0;
+        .swiper-slide {
+            .swiper-inner {
+                box-shadow: 0px 30px 64px 0px rgba(0, 0, 0, 0.05);
+
+                .quote {
+                    bottom: 2px;
+                    right: 30px;
+
+                    i {
+                        font-size: 60px;
+                        color: rgba(0, 0, 0, 0.05);
+                    }
+                }
+
+                .swiper-content {
+                    padding: 60px 40px;
+
+                    .rating-part {
+                        margin: 0 0 20px;
+
+                        i {
+                            color: #ffde00;
+                            font-size: 14px;
+                        }
+                    }
+
+                    .paragraph-part {
+                        p {
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: #818790;
+                            font-style: italic;
+                        }
+                    }
+
+                    .author-part {
+                        margin-top: 50px;
+                        align-items: center;
+
+                        .quote1 {
+                            top: -5px;
+                            left: 35px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #fb5d5d;
+                            width: 22px;
+                            height: 22px;
+                            border-radius: 30px;
+
+                            i {
+                                color: #fff;
+                                font-size: 12px;
+                            }
+                        }
+
+                        .author-name {
+                            margin-left: 25px;
+
+                            h4 {
+                                color: #39393a;
+                                font-size: 18px;
+                                margin: 0 0 3px;
+                                font-weight: 500;
+                            }
+
+                            span {
+                                color: #576477;
+                                font-size: 15px;
+                                font-weight: 400;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
+}
