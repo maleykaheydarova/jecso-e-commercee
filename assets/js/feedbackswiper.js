@@ -1,12 +1,12 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".feedbackSwiper", {
     slidesPerView: 2,
     slidesPerGroup: 1,
     loop:true,
     speed: 1000,
-    autoplay:{
-        delay: 4000,
-        disableOnInteraction: false,
-    },
+    // autoplay:{
+    //     delay: 4000,
+    //     disableOnInteraction: false,
+    // },
     pagination: {
         clickable: true,
     },

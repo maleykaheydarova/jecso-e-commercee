@@ -1,4 +1,7 @@
-.feedback-section .feedback-page-name h2 {
+.feedback-section .container {
+  border-bottom: 1px solid gray;
+}
+.feedback-section .container .feedback-page-name h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -6,41 +9,41 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.feedback-section .swiper-wrapper {
+.feedback-section .container .swiper-wrapper {
   padding: 60px 0;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner {
   box-shadow: 0px 30px 64px 0px rgba(0, 0, 0, 0.05);
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .quote {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .quote {
   bottom: 2px;
   right: 30px;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .quote i {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .quote i {
   font-size: 60px;
   color: rgba(0, 0, 0, 0.05);
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content {
   padding: 60px 40px;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .rating-part {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .rating-part {
   margin: 0 0 20px;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .rating-part i {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .rating-part i {
   color: #ffde00;
   font-size: 14px;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .paragraph-part p {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .paragraph-part p {
   font-size: 18px;
   line-height: 30px;
   color: #818790;
   font-style: italic;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part {
   margin-top: 50px;
   align-items: center;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .quote1 {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .quote1 {
   top: -5px;
   left: 35px;
   display: flex;
@@ -51,20 +54,20 @@
   height: 22px;
   border-radius: 30px;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .quote1 i {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .quote1 i {
   color: #fff;
   font-size: 12px;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .author-name {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .author-name {
   margin-left: 25px;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .author-name h4 {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .author-name h4 {
   color: #39393a;
   font-size: 18px;
   margin: 0 0 3px;
   font-weight: 500;
 }
-.feedback-section .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .author-name span {
+.feedback-section .container .swiper-wrapper .swiper-slide .swiper-inner .swiper-content .author-part .author-name span {
   color: #576477;
   font-size: 15px;
   font-weight: 400;
