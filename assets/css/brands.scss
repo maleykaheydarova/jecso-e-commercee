@@ -1,0 +1,24 @@
+.brands-section{
+    .swiper{
+        padding: 60px 0 110px 0;
+        .swiper-slide{
+            .swiper-content{
+                display: flex ;
+                justify-content: center;
+                align-items: center;
+                img{
+                    filter: grayscale(1);
+                    opacity: 0.6;
+                    transition: 0.5ms ease;
+                    &:hover{
+                        filter: grayscale(0);
+                        filter: brightness(1);
+                        opacity: 1;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        
+    }
+}

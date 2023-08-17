@@ -1,0 +1,19 @@
+.brands-section .swiper {
+  padding: 60px 0 110px 0;
+}
+.brands-section .swiper .swiper-slide .swiper-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brands-section .swiper .swiper-slide .swiper-content img {
+  filter: grayscale(1);
+  opacity: 0.6;
+  transition: 0.5ms ease;
+}
+.brands-section .swiper .swiper-slide .swiper-content img:hover {
+  filter: grayscale(0);
+  filter: brightness(1);
+  opacity: 1;
+  cursor: pointer;
+}/*# sourceMappingURL=brands.css.map */
