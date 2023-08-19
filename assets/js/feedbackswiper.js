@@ -11,6 +11,9 @@ var swiper = new Swiper(".feedbackSwiper", {
         clickable: true,
     },
     breakpoints:{
+        360:{
+            slidesPerView: 1
+        },
         576:{
             slidesPerView: 1
         },
