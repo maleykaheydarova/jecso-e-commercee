@@ -1,0 +1,184 @@
+.product-section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+    .pro-sec-fline {
+        margin-bottom: 9px !important;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #c1b5b6;
+
+        .product-section-name {
+            h2 {
+                font-size: 36px;
+                font-weight: 700;
+                background: linear-gradient(-96deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .page-name-box {
+            margin-top: 8px;
+            margin-left: 15px;
+            padding-left: 15px;
+            padding-bottom: 3px;
+
+
+            .page-name {
+                p {
+                    font-weight: 500;
+                    color: #c1b5b6;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: #fd3d6b;
+                        // border-bottom: 2px solid #fd3d6b;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .product-list {
+        margin-top: 4%;
+
+        .product-item {
+            margin-top: 30px;
+
+            a {
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    overflow: hidden;
+                    z-index: 1;
+                    max-width: 100%;
+                    -webkit-transition: all 0.3s ease 0s;
+                    transition: 0ş3s ease-in-out;
+                    width: 100%;
+
+                }
+
+                .hover-img {
+                    overflow: hidden;
+                    display: none;
+                }
+
+                &:hover .hover-img {
+                    display: block;
+                    position: absolute;
+                    top: -162px;
+                    left: 0;
+                }
+
+                &:hover .hover-icons {
+                    display: block;
+                    position: absolute;
+                    top: 5%;
+                    right: 0;
+                }
+
+
+            }
+
+            .new-pro-badge {
+                position: absolute;
+                top: 3%;
+                left: 0;
+                z-index: 1;
+            }
+
+            .pro-icon {
+                position: absolute;
+                top: 1%;
+                right: 3%;
+                z-index: 1;
+                transition: .3s ease-in-out;
+
+                i {
+                    color: #3c3c3c;
+                    font-size: 23px;
+                    padding: 10px;
+                    transition: .3s ease-in-out;
+                    border-radius: 50%;
+
+                    &:hover {
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        color: #fff;
+                        background-color: #fd3d6b;
+                    }
+                }
+            }
+
+            .hover-icons {
+                margin-top: 12px;
+                display: none;
+                text-align: center;
+                transition: .3s ease-in-out;
+
+                i {
+                    transition: .3s ease-in-out;
+                    color: #3c3c3c;
+                    font-size: 23px;
+                    display: block;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                    border-radius: 50%;
+
+                    &:hover {
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        color: #fff;
+                        background-color: #fd3d6b;
+                    }
+                }
+            }
+
+            &:hover .hover-icons {
+                transition: .3s;
+                display: block;
+                position: absolute;
+                top: 11%;
+                right: 3%;
+                z-index: 1;
+                display: block;
+            }
+
+            .pro-content {
+                
+                .rate-icons  {
+                    margin-top: 10px;
+                    i{
+                        padding: 2px;
+                        color: rgb(255, 234, 4);
+                    }
+                    span{
+                        margin-top: -2px;
+                        margin-left: 10px;
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #7e7e7e;
+                    }
+                    
+                }
+                .pro-name{
+                    margin-top: 5px;
+                    a{
+                        color: #3c3c3c;
+                        font-size: 18px;
+                       &:hover{
+                        color: #fd3d6b;
+
+                       }
+                    }
+                    span{
+                        display: block;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+        }
+    }
+}

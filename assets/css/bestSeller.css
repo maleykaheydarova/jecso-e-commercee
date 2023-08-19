@@ -9,6 +9,7 @@
 .bestseller-image:hover img {
   scale: 1.1;
   rotate: 3deg;
+  overflow: hidden;
 }
 .bestseller-image .img-content {
   top: 57%;
@@ -41,6 +42,34 @@
 .bestseller-image .img-content .best-item-count {
   color: #525252;
   font-weight: 600;
+}
+
+.bs-icon-cards {
+  transition: 0.3s;
+  margin-top: 8%;
+}
+.bs-icon-cards .bs-icon-card {
+  width: 30% !important;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 25px;
+}
+.bs-icon-cards .bs-icon-card .feature-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.bs-icon-cards .bs-icon-card .card-info {
+  color: #838383;
+  font-weight: 600;
+}
+.bs-icon-cards .bs-icon-card:hover img {
+  transform: scale(0.9) rotate(3deg);
+  overflow: hidden;
 }
 
 @keyframes scaleImg {
