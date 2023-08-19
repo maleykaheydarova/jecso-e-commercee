@@ -1,0 +1,87 @@
+.faq-section {
+  background-color: #fcf6f6;
+}
+.faq-section .container {
+  padding: 110px 0 117px 0;
+}
+.faq-section .container h2 {
+  font-size: 48px;
+  color: #3c3c3c;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.faq-section .container span {
+  color: #3c3c3c;
+  font-size: 18px;
+}
+.faq-section .container span a {
+  color: #3c3c3c;
+  transition: 0.5s ease;
+}
+.faq-section .container span a:hover {
+  color: #fb5d5d;
+}
+
+.accordion-section {
+  padding: 100px 0;
+}
+.accordion-section .description {
+  margin-bottom: 30px;
+}
+.accordion-section .description h4 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+  margin: 0 0 15px;
+  line-height: 28px;
+}
+.accordion-section .description p {
+  color: #474747;
+  font-size: 16px;
+  line-height: 26px;
+}
+.accordion-section .faq-accordion .accordion-item {
+  margin-bottom: 20px;
+}
+.accordion-section .faq-accordion .accordion-item .is-open {
+  min-height: 35px;
+  padding-bottom: 10px;
+}
+.accordion-section .faq-accordion .accordion-item .accordion-content {
+  cursor: pointer;
+  background-color: #eeeeee;
+  padding: 20px;
+  font-weight: 600;
+}
+.accordion-section .faq-accordion .accordion-item .accordion-content span {
+  color: #000;
+  font-size: 16px;
+}
+.accordion-section .faq-accordion .accordion-item .accordion-content .accordion-heading {
+  padding: 0 0 0 10px;
+}
+.accordion-section .faq-accordion .accordion-item .accordion-content .accordion-heading .red-text {
+  transition: 0.3s ease;
+  color: #fb5d5d;
+}
+.accordion-section .faq-accordion .accordion-item .accordion-content .accordion-heading span {
+  color: #000;
+  font-size: 16px;
+}
+.accordion-section .faq-accordion .accordion-item .accordion-content .accordion-heading i {
+  color: #000;
+  font-size: 10px;
+}
+.accordion-section .faq-accordion .panel {
+  padding: 20px 20px 10px 20px;
+  border: 1px solid rgba(238, 238, 238, 0.9333333333);
+  display: none;
+  overflow: hidden;
+}
+.accordion-section .faq-accordion .panel p {
+  font-size: 16px;
+  color: #474747;
+}
+.accordion-section .faq-accordion .active-panel {
+  display: block;
+}/*# sourceMappingURL=faqsection.css.map */

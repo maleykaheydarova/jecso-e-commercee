@@ -61,6 +61,27 @@
     }
 }
 @media(max-width:576px) {
+    // faq-section
+    .faq-section{
+        h2{
+            font-size: 42px !important;
+        }
+    }
+    .accordion-section{
+        .description{
+            h4{
+                font-size: 20px !important;
+            }
+            p{
+                font-size: 15px !important;
+            }
+        }
+        .accordion-heading{
+            span{
+                font-size: 14px !important;
+            }
+        }
+    }
     // shop-section 4
    .shop-section{
     .container{
@@ -71,7 +92,7 @@
             align-items: center;
             .counter-side{
                 .section-name{
-                    font-size: 12px !important;
+                    font-size: 18px !important;
                 }
                 h3{
                     font-size: 18px !important;
@@ -164,6 +185,14 @@
         }
         
        }
+    }
+
+    // feedback
+    .feedback-page-name {
+        h2 {
+
+            font-size: 26px !important;  
+        }
     }
 }
 

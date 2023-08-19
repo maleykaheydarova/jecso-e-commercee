@@ -1,7 +1,5 @@
 @import url('header.css');
-@import url('shop.css');
-@import url('feedback.css');
-@import url('brands.css');
+@import url('faqsection.css');
 @import url('footer.css');
 
 *{
@@ -12,4 +10,3 @@
     text-decoration: none !important;
     
 }
-

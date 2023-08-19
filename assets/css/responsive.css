@@ -39,6 +39,18 @@
   }
 }
 @media (max-width: 576px) {
+  .faq-section h2 {
+    font-size: 42px !important;
+  }
+  .accordion-section .description h4 {
+    font-size: 20px !important;
+  }
+  .accordion-section .description p {
+    font-size: 15px !important;
+  }
+  .accordion-section .accordion-heading span {
+    font-size: 14px !important;
+  }
   .shop-section .container .col-12 {
     display: flex;
     flex-direction: column;
@@ -46,7 +58,7 @@
     align-items: center;
   }
   .shop-section .container .col-12 .counter-side .section-name {
-    font-size: 12px !important;
+    font-size: 18px !important;
   }
   .shop-section .container .col-12 .counter-side h3 {
     font-size: 18px !important;
@@ -106,5 +118,8 @@
   .headernavigate .headerextrainfo .spanextrainfo a span {
     top: 11.3%;
     right: 8%;
+  }
+  .feedback-page-name h2 {
+    font-size: 26px !important;
   }
 }/*# sourceMappingURL=responsive.css.map */
