@@ -1,5 +1,5 @@
 .feedback-section .container {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgb(233, 229, 229);
 }
 .feedback-section .container .feedback-page-name h2 {
   text-align: center;
@@ -7,6 +7,7 @@
   font-weight: 700;
   background: linear-gradient(-96deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .feedback-section .container .swiper-wrapper {

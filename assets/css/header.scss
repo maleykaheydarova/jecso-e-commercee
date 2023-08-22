@@ -171,3 +171,31 @@ header {
         }
     }
 }
+
+.navigation {
+    bottom: 112px;
+    right: 70px;
+    z-index: 1000;
+
+    .scroll-up {
+        position: fixed;
+    }
+
+    a {
+        padding: 17px;
+        background-color: #FB5D5D;
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s ease;
+        &:hover {
+            box-shadow: 0 5px 15px 0 rgba(153, 63, 107, 0.5);
+            transform: translateY(-2px);
+        }
+        i {
+            color: white;
+            font-size: 15px;
+        }
+    }
+}

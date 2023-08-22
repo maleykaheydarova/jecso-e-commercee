@@ -119,4 +119,30 @@ header .headerextrainfo a i {
 }
 header .headerextrainfo a:hover {
   color: #FB5D5D;
+}
+
+.navigation {
+  bottom: 112px;
+  right: 70px;
+  z-index: 1000;
+}
+.navigation .scroll-up {
+  position: fixed;
+}
+.navigation a {
+  padding: 17px;
+  background-color: #FB5D5D;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+}
+.navigation a:hover {
+  box-shadow: 0 5px 15px 0 rgba(153, 63, 107, 0.5);
+  transform: translateY(-2px);
+}
+.navigation a i {
+  color: white;
+  font-size: 15px;
 }/*# sourceMappingURL=header.css.map */

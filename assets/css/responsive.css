@@ -34,11 +34,35 @@
   }
 }
 @media (max-width: 768px) {
+  .photoboxes {
+    display: none !important;
+  }
+  .swiper-wrapper {
+    justify-content: center !important;
+  }
   .footer-top1 .footer-info1 {
     display: flex;
   }
 }
 @media (max-width: 576px) {
+  .accordion-button {
+    width: 110px !important;
+    font-size: 13px !important;
+    text-align: center;
+  }
+  .panel-part p {
+    font-size: 14px !important;
+  }
+  .product-section h2 {
+    font-size: 42px !important;
+  }
+  .product-info-part h2 {
+    font-size: 28px !important;
+  }
+  .product-cart-buttons button {
+    padding: 12px 40px !important;
+    font-size: 11px !important;
+  }
   .faq-section h2 {
     font-size: 42px !important;
   }
